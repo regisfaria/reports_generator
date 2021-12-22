@@ -1,21 +1,25 @@
-# ReportsGenerator
+# Reports_Generator
 
-**TODO: Add description**
+## Overview
 
-## Installation
+This is an application build with Elixir to create reports from CSV files.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `reports_generator` to your list of dependencies in `mix.exs`:
+## Installation & Running
 
-```elixir
-def deps do
-  [
-    {:reports_generator, "~> 0.1.0"}
-  ]
-end
+From now this only runs on the terminal, so you can run with:
+
+```shell
+> iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/reports_generator](https://hexdocs.pm/reports_generator).
+Then just use `ReportGenerator.build("csv_filename.csv")` to load the desired csv file and get the report of user spendings.
 
+## Contact
+
+Email: **regisprogramming@gmail.com**
+
+[LinkedIn](https://www.linkedin.com/in/regissfaria/) Profile
+
+[GitHub](https://github.com/regisfaria) Profile
+
+[GitLab](https://gitlab.com/regisfaria) Profile
